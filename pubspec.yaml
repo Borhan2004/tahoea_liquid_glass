@@ -1,8 +1,8 @@
 name: tahoea_liquid_glass
 description: A Flutter widget that replicates the iOS liquid glass effect.
 version: 0.0.1
-homepage: https://github.com/yourusername/tahoea_liquid_glass
-publish_to: 'none' # remove this if you want to publish to pub.dev
+homepage: https://github.com/Borhan2004/tahoea_liquid_glass
+publish_to: 
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
