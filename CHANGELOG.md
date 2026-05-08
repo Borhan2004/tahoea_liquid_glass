@@ -1,32 +1,58 @@
-## 0.0.7
+# 📜 Changelog
 
-* **Documentation Fix** — Corrected broken screenshot and video links in the README using relative paths and correct branch references.
+All notable changes to this project will be documented in this file.
 
-## 0.0.5
+---
 
-* **Visual Assets** — Added support for screenshots and video demonstrations in the README.
-* **Web/Desktop Enhancement** — Improved the example app with a premium responsive layout and interactive mouse-tracking effects.
+## 🚀 0.0.8 (Current)
 
-## 0.0.4
+### 💎 Improvements
+- **Visual Overhaul**: Enhanced the README with direct high-fidelity previews and a dedicated video demonstration section.
+- **Documentation**: Synchronized all version references and added helpful tips for UI design.
 
-* **Documentation Overhaul** — Added comprehensive API documentation for all public members to reach 100% documentation coverage.
-* **Pub.dev Optimization** — Cleaned up package structure (removed unnecessary folders/files like `.vscode` and `public/fonts`) and updated LICENSE to standard format for maximum pub points.
-* **Simplified Example** — Further refined the example app for clarity and improved its README.
+---
 
-## 0.0.3
+## ⚡ 0.0.7
 
-* **Simplified Example** — Refactored the example app to be more concise and easier to understand while keeping the premium aesthetic.
+### 🛠 Fixes
+- **Asset Links**: Repaired broken media paths in the documentation using stable raw GitHub references.
 
-## 0.0.2
+---
 
-* **Complete visual overhaul** — faithfully replicates the iOS 18 Liquid Glass material system.
-* **Dual animated wave layers** — two phase-offset sine waves with gradient fill for liquid depth.
-* **Iridescent prismatic border** — `SweepGradient` rim light cycling white → ice-blue → gold → sky-blue.
-* **Specular sweep animation** — diagonal shimmer band that sweeps across the surface periodically.
-* **Multi-layer floating shadow** — ambient + near elevation shadows for realistic depth.
-* **Simplified layout** — uses `StackFit.passthrough` to allow children to drive card size naturally.
-* **Customizability** — configurable blur, tint, wave height/speed, shimmer period, and border width.
+## 🎨 0.0.5
 
-## 0.0.1
+### 🚀 Features
+- **Web/Desktop Optimization**: Introduced a responsive grid-based layout for the example application.
+- **Interactive Effects**: Added a real-time mouse-tracking glow effect that reacts to the glass surface on desktop platforms.
+- **Visual Assets**: Integrated initial screenshot and video support for pub.dev.
 
-* Initial release.
+---
+
+## 📖 0.0.4
+
+### 📝 Documentation
+- **API Coverage**: Reached 100% documentation coverage for all public members.
+- **Maintenance**: Cleaned up the package structure by removing development-only artifacts (`.vscode`, `nul`, etc.).
+- **Licensing**: Standardized the LICENSE file for better compatibility with the Flutter ecosystem.
+
+---
+
+## 🧪 0.0.3
+
+### 🧹 Refinement
+- **Example App**: Completely refactored the example application to be more concise while maintaining a premium feel.
+
+---
+
+## 🧱 0.0.2
+
+### 🌟 Initial Material System
+- **iOS 18 Replication**: Faithful implementation of the Liquid Glass material system.
+- **Layering**: Dual animated waves, iridescent borders, specular sweeps, and radial gloss highlights.
+- **Performance**: Optimized rendering using `CustomPainter` and `StackFit.passthrough`.
+
+---
+
+## 🐣 0.0.1
+
+- Initial project structure and basic backdrop blur implementation.
