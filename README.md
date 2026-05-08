@@ -3,6 +3,22 @@
 A Flutter widget that faithfully replicates the **iOS 18 Liquid Glass** material system —
 deep frosted blur, dual animated liquid waves, iridescent prismatic border, specular sweep shimmer, radial gloss, and multi-layer floating shadow.
 
+---
+
+## 📸 Screenshots
+
+| Android / iOS | macOS / Windows / Web |
+|---|---|
+| ![Mobile Screenshot](https://raw.githubusercontent.com/Borhan2004/tahoea_liquid_glass/main/screenshots/mobile.png) | ![Desktop Screenshot](https://raw.githubusercontent.com/Borhan2004/tahoea_liquid_glass/main/screenshots/desktop.png) |
+
+---
+
+## 🎥 Video Demo
+
+https://github.com/Borhan2004/tahoea_liquid_glass/raw/main/screenshots/demo.mp4
+
+---
+
 [![pub package](https://img.shields.io/pub/v/tahoea_liquid_glass.svg)](https://pub.dev/packages/tahoea_liquid_glass)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -29,7 +45,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  tahoea_liquid_glass: ^0.0.2
+  tahoea_liquid_glass: ^0.0.4
 ```
 
 Then run:

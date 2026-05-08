@@ -1,3 +1,14 @@
+## 0.0.5
+
+* **Visual Assets** — Added support for screenshots and video demonstrations in the README.
+* **Web/Desktop Enhancement** — Improved the example app with a premium responsive layout and interactive mouse-tracking effects.
+
+## 0.0.4
+
+* **Documentation Overhaul** — Added comprehensive API documentation for all public members to reach 100% documentation coverage.
+* **Pub.dev Optimization** — Cleaned up package structure (removed unnecessary folders/files like `.vscode` and `public/fonts`) and updated LICENSE to standard format for maximum pub points.
+* **Simplified Example** — Further refined the example app for clarity and improved its README.
+
 ## 0.0.3
 
 * **Simplified Example** — Refactored the example app to be more concise and easier to understand while keeping the premium aesthetic.

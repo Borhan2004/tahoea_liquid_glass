@@ -1,17 +1,16 @@
-# tahoea_liquid_glass_example
+# Tahoea Liquid Glass Example
 
-A new Flutter project.
+This example demonstrates how to use the `TahoeaLiquidGlass` widget to create premium, iOS 18 style glass materials.
 
-## Getting Started
+## Features Shown
+- **Vibrant Animated Background**: Essential for showing off the frosted glass effect.
+- **Glass Cards**: A main demo card showing intrinsic sizing and blur depth.
+- **Glass Icons**: Smaller, rounded glass containers for icons.
+- **Interactive States**: A simple glass button.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running the Example
+From the root directory:
+```bash
+cd example
+flutter run
+```
