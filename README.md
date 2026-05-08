@@ -15,7 +15,7 @@ deep frosted blur, dual animated liquid waves, iridescent prismatic border, spec
 
 ## 🎥 Video Demo
 
-https://github.com/Borhan2004/tahoea_liquid_glass/raw/main/screenshots/demo.mp4
+https://github.com/Borhan2004/tahoea_liquid_glass/raw/main/screenshots/demo.mov
 
 ---
 
