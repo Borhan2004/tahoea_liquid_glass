@@ -1,3 +1,7 @@
+## 0.0.3
+
+* **Simplified Example** — Refactored the example app to be more concise and easier to understand while keeping the premium aesthetic.
+
 ## 0.0.2
 
 * **Complete visual overhaul** — faithfully replicates the iOS 18 Liquid Glass material system.

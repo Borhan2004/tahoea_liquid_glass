@@ -3,7 +3,7 @@ description: >-
   A Flutter widget that faithfully replicates the iOS 18 "Liquid Glass" material —
   deep frosted blur, dual animated waves, iridescent border, specular sweep shimmer,
   radial gloss highlight, and multi-layer floating shadow.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Borhan2004/tahoea_liquid_glass
 
 environment:
