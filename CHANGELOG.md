@@ -1,3 +1,7 @@
+## 0.0.7
+
+* **Documentation Fix** — Corrected broken screenshot and video links in the README using relative paths and correct branch references.
+
 ## 0.0.5
 
 * **Visual Assets** — Added support for screenshots and video demonstrations in the README.
@@ -19,12 +23,10 @@
 * **Dual animated wave layers** — two phase-offset sine waves with gradient fill for liquid depth.
 * **Iridescent prismatic border** — `SweepGradient` rim light cycling white → ice-blue → gold → sky-blue.
 * **Specular sweep animation** — diagonal shimmer band that sweeps across the surface periodically.
-* **Radial gloss highlight** — static top-left specular highlight matching Apple's glass style.
-* **Multi-layer floating shadow** — ambient + near + top-highlight box shadows for elevation depth.
-* **Fixed layout architecture** — padding now wraps content only; all visual overlays span the full card via `Positioned.fill`, preventing border/wave clipping at edges.
-* **Improved default parameters** — `blurSigma` increased to 28, `tintColor` reduced to `0x18FFFFFF` for true glass transparency.
-* **New parameters** — `shadowColor`, `waveColor`, `specularSweepDuration`, `showSpecularSweep`, `borderWidth`.
+* **Multi-layer floating shadow** — ambient + near elevation shadows for realistic depth.
+* **Simplified layout** — uses `StackFit.passthrough` to allow children to drive card size naturally.
+* **Customizability** — configurable blur, tint, wave height/speed, shimmer period, and border width.
 
 ## 0.0.1
 
-* Initial release — backdrop blur with tint, single animated sine wave overlay, and optional shine gradient.
+* Initial release.
