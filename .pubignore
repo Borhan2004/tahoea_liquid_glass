@@ -1,0 +1,7 @@
+# Exclude VS Code launch config and other dev-only files from pub package
+.vscode/
+.idea/
+*.g.dart
+*.freezed.dart
+build/
+.dart_tool/
