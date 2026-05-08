@@ -9,13 +9,13 @@ deep frosted blur, dual animated liquid waves, iridescent prismatic border, spec
 
 | Android / iOS | macOS / Windows / Web |
 |---|---|
-| ![Mobile Screenshot](https://raw.githubusercontent.com/Borhan2004/tahoea_liquid_glass/main/screenshots/mobile.png) | ![Desktop Screenshot](https://raw.githubusercontent.com/Borhan2004/tahoea_liquid_glass/main/screenshots/desktop.png) |
+| ![Mobile Screenshot](screenshots/mobile.png) | ![Desktop Screenshot](screenshots/desktop.png) |
 
 ---
 
 ## 🎥 Video Demo
 
-https://github.com/Borhan2004/tahoea_liquid_glass/raw/main/screenshots/demo.mov
+[Watch the Liquid Glass in action](https://github.com/Borhan2004/tahoea_liquid_glass/raw/Borhan/screenshots/demo.mov)
 
 ---
 
@@ -45,7 +45,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  tahoea_liquid_glass: ^0.0.4
+  tahoea_liquid_glass: ^0.0.7
 ```
 
 Then run:
