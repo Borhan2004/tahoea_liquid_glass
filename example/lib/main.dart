@@ -58,14 +58,9 @@ class _LiquidGlassShowcaseState extends State<LiquidGlassShowcase>
             final t = _bgCtrl.value;
             return Stack(
               children: [
-                // Premium Animated Background
                 _buildBackground(t),
                 ..._buildOrbs(t, size),
-                
-                // Mouse Follower Glow (Web specific charm)
                 _buildMouseGlow(),
-
-                // Main Content
                 SafeArea(
                   child: Center(
                     child: ConstrainedBox(
@@ -76,18 +71,16 @@ class _LiquidGlassShowcaseState extends State<LiquidGlassShowcase>
                           vertical: 40,
                         ),
                         child: Column(
-                          crossAxisAlignment: isDesktop 
-                              ? CrossAxisAlignment.center 
+                          crossAxisAlignment: isDesktop
+                              ? CrossAxisAlignment.center
                               : CrossAxisAlignment.stretch,
                           children: [
                             _buildHeroHeader(isDesktop),
                             const SizedBox(height: 48),
-                            
-                            if (isDesktop) 
+                            if (isDesktop)
                               _buildDesktopLayout()
-                            else 
+                            else
                               _buildMobileLayout(),
-
                             const SizedBox(height: 60),
                             _buildFooter(),
                           ],
@@ -157,9 +150,12 @@ class _LiquidGlassShowcaseState extends State<LiquidGlassShowcase>
           children: [
             Expanded(child: _buildFeatureCard('Dynamic Waves', Icons.waves)),
             const SizedBox(width: 24),
-            Expanded(child: _buildFeatureCard('Prismatic Border', Icons.blur_linear)),
+            Expanded(
+                child:
+                    _buildFeatureCard('Prismatic Border', Icons.blur_linear)),
             const SizedBox(width: 24),
-            Expanded(child: _buildFeatureCard('Specular Shimmer', Icons.flash_on)),
+            Expanded(
+                child: _buildFeatureCard('Specular Shimmer', Icons.flash_on)),
           ],
         ),
       ],
@@ -189,7 +185,8 @@ class _LiquidGlassShowcaseState extends State<LiquidGlassShowcase>
       child: const Center(
         child: Text(
           'Interactive Glass Surface',
-          style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
+          style: TextStyle(
+              color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),
     );
@@ -203,11 +200,13 @@ class _LiquidGlassShowcaseState extends State<LiquidGlassShowcase>
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Icon(Icons.settings_input_component, color: Colors.white, size: 40),
+          const Icon(Icons.settings_input_component,
+              color: Colors.white, size: 40),
           const SizedBox(height: 20),
           const Text(
             'Fully Configurable',
-            style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+            style: TextStyle(
+                color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 12),
           Text(
@@ -230,7 +229,9 @@ class _LiquidGlassShowcaseState extends State<LiquidGlassShowcase>
           children: [
             Icon(icon, color: Colors.white, size: 28),
             const SizedBox(height: 12),
-            Text(title, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
+            Text(title,
+                style: const TextStyle(
+                    color: Colors.white, fontWeight: FontWeight.w600)),
           ],
         ),
       ),
@@ -314,7 +315,11 @@ class _LiquidGlassShowcaseState extends State<LiquidGlassShowcase>
 }
 
 class _Orb extends StatelessWidget {
-  const _Orb({required this.color, required this.size, required this.left, required this.top});
+  const _Orb(
+      {required this.color,
+      required this.size,
+      required this.left,
+      required this.top});
   final Color color;
   final double size;
   final double left, top;

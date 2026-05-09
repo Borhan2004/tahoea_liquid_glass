@@ -1,22 +1,8 @@
-// lib/src/liquid_glass.dart
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:tahoea_liquid_glass/src/wave_painter.dart';
 
-/// A high-fidelity Flutter widget that faithfully replicates the iOS 18 "Liquid Glass" material.
-///
-/// This widget combines multiple layers to achieve its premium look:
-/// 1. **BackdropFilter** — A deep Gaussian blur for the frosted base.
-/// 2. **Tint** — A semi-transparent color overlay.
-/// 3. **Animated Waves** — Dual sine waves for a liquid depth illusion.
-/// 4. **Iridescent Border** — A prismatic rim light that cycles colors.
-/// 5. **Specular Sweep** — An animated diagonal shimmer flash.
-/// 6. **Radial Gloss** — A static top-left highlight.
-///
-/// The widget can be used as a container for other UI elements, providing a
-/// translucent, glass-like background.
 class TahoeaLiquidGlass extends StatefulWidget {
-  /// Creates an iOS 18 style Liquid Glass widget.
   const TahoeaLiquidGlass({
     super.key,
     this.width,
@@ -40,61 +26,41 @@ class TahoeaLiquidGlass extends StatefulWidget {
     this.child,
   });
 
-  /// The explicit width of the widget. If null, it will size itself to its child.
   final double? width;
 
-  /// The explicit height of the widget. If null, it will size itself to its child.
   final double? height;
 
-  /// The corner radius of the glass card. Defaults to 24.
   final BorderRadius borderRadius;
 
-  /// The padding for the [child] widget inside the glass container.
   final EdgeInsets padding;
 
-  /// The strength of the Gaussian blur (frosted effect). Defaults to 28.0.
   final double blurSigma;
 
-  /// The semi-transparent color overlay applied to the glass.
   final Color tintColor;
 
-  /// The shadow depth/elevation. Set to 0.0 to disable shadows.
   final double elevation;
 
-  /// The color of the multi-layer shadow.
   final Color shadowColor;
 
-  /// The height of the animated liquid waves in logical pixels.
   final double waveAmplitude;
 
-  /// The frequency (number of cycles) of the sine waves.
   final double waveFrequency;
-
-  /// The speed multiplier for the wave animations. 1.0 is standard.
   final double waveSpeed;
 
-  /// The base color of the animated liquid waves.
   final Color waveColor;
 
-  /// Whether to show the static top-left radial gloss highlight.
   final bool showGloss;
 
-  /// The opacity of the radial gloss highlight (0.0 to 1.0).
   final double glossOpacity;
 
-  /// Whether to show the periodic diagonal specular shimmer animation.
   final bool showSpecularSweep;
 
-  /// The duration of a full specular sweep cycle, including the pause.
   final Duration specularSweepDuration;
 
-  /// Whether to show the iridescent prismatic border stroke.
   final bool showBorder;
 
-  /// The thickness of the iridescent border.
   final double borderWidth;
 
-  /// The widget to display inside the glass container.
   final Widget? child;
 
   @override
@@ -284,7 +250,8 @@ class _BorderPainter extends CustomPainter {
       ..strokeWidth = borderWidth * 2.5
       ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 3)
       ..color = const Color(0x1EFFFFFF);
-    canvas.drawRRect(borderRadius.toRRect(rect).deflate(borderWidth), glowPaint);
+    canvas.drawRRect(
+        borderRadius.toRRect(rect).deflate(borderWidth), glowPaint);
   }
 
   @override
@@ -329,8 +296,7 @@ class _SweepPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(covariant _SweepPainter old) =>
-      old.progress != progress;
+  bool shouldRepaint(covariant _SweepPainter old) => old.progress != progress;
 }
 
 class _GlassShadow extends StatelessWidget {
