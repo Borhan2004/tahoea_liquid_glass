@@ -4,7 +4,19 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## 🚀 0.0.8 (Current)
+## 🚀 0.0.9
+
+### 🌟 iOS Liquid Glass Upgrades
+- **3D Parallax Tilt**: Dynamic gesture and mouse-hover responsive 3D perspective rotation.
+- **Lensed Depth Parallax**: Translates child content opposite to tilt to simulate glass lens refraction.
+- **Dynamic Light Tracking**: Links radial gloss gradient and iridescent rim SweepGradient to pointer/tilt coordinates.
+- **Organic Triple Waves**: Composites three phase-shifted waves combining sine and cosine synthesis for fluid viscosity.
+- **Touch-Tap Ripples**: Adds animated light ripple expansion propagating from user touch positions.
+- **Visual Presets**: Out-of-the-box presets (`frosted`, `refractive`, `chromatic`, `darkVoid`) for fast style setup.
+
+---
+
+## 🚀 0.0.8
 
 ### 💎 Improvements
 - **Visual Overhaul**: Enhanced the README with direct high-fidelity previews and a dedicated video demonstration section.
