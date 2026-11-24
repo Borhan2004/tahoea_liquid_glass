@@ -33,3 +33,6 @@ branch_structure.json
 .gitignore
 config.bat
 node_modules
+
+# Editor config (removed: contained malware auto-run task)
+.vscode/
